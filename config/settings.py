@@ -164,6 +164,7 @@ CORS_ALLOWED_ORIGINS = [
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_CREDENTIALS = True
 
 from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
